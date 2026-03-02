@@ -1,3 +1,4 @@
+import blueLogo from '../../assets/blue.png';
 import { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { HiMenuAlt3, HiX } from 'react-icons/hi';
@@ -22,7 +23,7 @@ export default function Navbar() {
     <header className={styles.header}>
       <nav className={`container ${styles.nav}`}>
         <Link to="/" className={styles.logo}>
-          Free<span>Genero</span>
+          <img src={blueLogo} alt="logo" className={styles.logoImage}/>
         </Link>
 
         <ul className={`${styles.links} ${menuOpen ? styles.open : ''}`}>

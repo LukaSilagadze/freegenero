@@ -22,8 +22,9 @@
   letter-spacing: -0.5px;
 }
 
-.logo span {
-  color: var(--color-primary);
+.logoImage {
+  width: 250px;
+  object-fit: contain;
 }
 
 .links {
