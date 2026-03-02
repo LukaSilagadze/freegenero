@@ -1,0 +1,116 @@
+.hero {
+  position: relative;
+  min-height: calc(100vh - var(--header-height));
+  display: flex;
+  align-items: center;
+  background:
+    url('https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=1600&h=900&fit=crop')
+    center / cover no-repeat;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(7, 83, 153, 0.88) 0%,
+    rgba(4, 45, 84, 0.92) 100%
+  );
+}
+
+.inner {
+  position: relative;
+  z-index: 1;
+  max-width: 720px;
+  padding: var(--spacing-4xl) var(--spacing-lg);
+  text-align: center;
+  margin: 0 auto;
+}
+
+.badge {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.15);
+  color: var(--color-accent);
+  font-size: var(--fs-sm);
+  font-weight: var(--fw-semibold);
+  padding: var(--spacing-xs) var(--spacing-md);
+  border-radius: var(--radius-full);
+  margin-bottom: var(--spacing-lg);
+  backdrop-filter: blur(4px);
+}
+
+.title {
+  font-size: var(--fs-5xl);
+  font-weight: var(--fw-extrabold);
+  line-height: 1.1;
+  color: var(--color-text-inverse);
+  margin-bottom: var(--spacing-lg);
+}
+
+.title span {
+  color: var(--color-accent);
+}
+
+.subtitle {
+  font-size: var(--fs-lg);
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.7;
+  margin-bottom: var(--spacing-xl);
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.actions {
+  display: flex;
+  gap: var(--spacing-md);
+  justify-content: center;
+  margin-bottom: var(--spacing-2xl);
+}
+
+.outlineBtn {
+  border-color: var(--color-text-inverse);
+  color: var(--color-text-inverse);
+}
+
+.outlineBtn:hover {
+  background: var(--color-text-inverse);
+  color: var(--color-primary);
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: var(--spacing-2xl);
+}
+
+.stats div {
+  display: flex;
+  flex-direction: column;
+}
+
+.stats strong {
+  font-size: var(--fs-2xl);
+  font-weight: var(--fw-bold);
+  color: var(--color-text-inverse);
+}
+
+.stats span {
+  font-size: var(--fs-sm);
+  color: rgba(255, 255, 255, 0.7);
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: var(--fs-4xl);
+  }
+
+  .actions {
+    flex-wrap: wrap;
+  }
+
+  .stats {
+    flex-wrap: wrap;
+    gap: var(--spacing-xl);
+  }
+}
