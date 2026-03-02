@@ -1,3 +1,4 @@
+import whiteLogo from '../../assets/white.png';
 import { Link } from 'react-router-dom';
 import { FiMail, FiPhone, FiMapPin } from 'react-icons/fi';
 import {
@@ -14,7 +15,7 @@ export default function Footer() {
       <div className={`container ${styles.grid}`}>
         <div className={styles.brand}>
           <Link to="/" className={styles.logo}>
-            Free<span>Genero</span>
+            <img src={whiteLogo} alt="logo" className={styles.logoImage}/>
           </Link>
           <p className={styles.tagline}>
             Empowering learners worldwide with industry-leading courses and

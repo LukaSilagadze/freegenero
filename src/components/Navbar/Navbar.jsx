@@ -1,4 +1,4 @@
-import blueLogo from '../../assets/blue.png';
+import blueLogo from '../../assets/logo_blue2.png';
 import { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { HiMenuAlt3, HiX } from 'react-icons/hi';
