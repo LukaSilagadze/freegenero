@@ -1,31 +1,31 @@
-import { FiTarget, FiHeart, FiTrendingUp, FiUsers } from 'react-icons/fi';
-import SectionHeading from '../../components/SectionHeading/SectionHeading';
-import styles from './About.module.css';
+import { FiTarget, FiHeart, FiTrendingUp, FiUsers } from "react-icons/fi";
+import SectionHeading from "../../components/SectionHeading/SectionHeading";
+import styles from "./About.module.css";
 
 const values = [
   {
     icon: <FiTarget />,
-    title: 'Mission-Driven',
+    title: "Mission-Driven",
     description:
-      'We believe quality education should be accessible to everyone, regardless of background or location.',
+      "We believe quality education should be accessible to everyone, regardless of background or location.",
   },
   {
     icon: <FiHeart />,
-    title: 'Student-First',
+    title: "Student-First",
     description:
-      'Every decision we make starts with a simple question: will this make our students more successful?',
+      "Every decision we make starts with a simple question: will this make our students more successful?",
   },
   {
     icon: <FiTrendingUp />,
-    title: 'Industry-Relevant',
+    title: "Industry-Relevant",
     description:
-      'Our curriculum is continuously updated with input from hiring managers and industry leaders.',
+      "Our curriculum is continuously updated with input from hiring managers and industry leaders.",
   },
   {
     icon: <FiUsers />,
-    title: 'Community-Powered',
+    title: "Community-Powered",
     description:
-      'Learning is better together. Our community of learners, mentors, and alumni supports every student.',
+      "Learning is better together. Our community of learners, mentors, and alumni supports every student.",
   },
 ];
 
@@ -42,16 +42,26 @@ export default function About() {
         </div>
       </section>
 
-      <section className="section about-story">
+      <section className={`section ${styles.aboutStory}`}>
         <div className="container">
           <div className={styles.story}>
             <div className={styles.storyContent}>
-              <h2 className={styles.storyTitle}>ფიქრები ფრიჯენეროს შექმნამდე</h2>
+              <h2 className={styles.storyTitle}>
+                ფიქრები ფრიჯენეროს შექმნამდე
+              </h2>
               <p>
-              ადამიანები განსხვავებულები ვართ და ყველას ჩვენებურად გვესმის ცხოვრების არსი, მიზანი... თუმცა არის ერთი რამ, რაც გვაერთიანებს  - ყველა ვცდილობთ რომ ცხოვრების იმ ხანმოკლე დროში, რაც რამდენ წელს გაგრძელდება წინასწარ არავინ იცის - ბედნიერება ვიპოვოთ. ბედნიერებაც იმდენნაირად გვესმის რამდენი ადამიანიც არსებობს დედამიწაზე. თუმცა, კარგად თუ დავუკვირდებით, სხვადასხვა მხოლოდ ბედნიერებისკენ მიმავალი გზაა, ხოლო ბედნიერება ერთ ყველაზე მთავარს ეფუძნება და ეს მთავარი ყველასათვის ერთია - თავისუფლება. 
+                ადამიანები განსხვავებულები ვართ და ყველას ჩვენებურად გვესმის
+                ცხოვრების არსი, მიზანი... თუმცა არის ერთი რამ, რაც გვაერთიანებს
+                - ყველა ვცდილობთ რომ ცხოვრების იმ ხანმოკლე დროში, რაც რამდენ
+                წელს გაგრძელდება წინასწარ არავინ იცის - ბედნიერება ვიპოვოთ.
+                ბედნიერებაც იმდენნაირად გვესმის რამდენი ადამიანიც არსებობს
+                დედამიწაზე. თუმცა, კარგად თუ დავუკვირდებით, სხვადასხვა მხოლოდ
+                ბედნიერებისკენ მიმავალი გზაა, ხოლო ბედნიერება ერთ ყველაზე
+                მთავარს ეფუძნება და ეს მთავარი ყველასათვის ერთია - თავისუფლება.
               </p>
               <p>
-              თავისუფლების გარეშე ბედნიერებას არც აქამდე უარსებია და არც არასოდეს იარსებებს.
+                თავისუფლების გარეშე ბედნიერებას არც აქამდე უარსებია და არც
+                არასოდეს იარსებებს.
               </p>
             </div>
             <div className={styles.storyImage}>
@@ -64,7 +74,7 @@ export default function About() {
         </div>
         <div className="container">
           <div className={styles.story}>
-          <div className={styles.storyImage}>
+            <div className={styles.storyImage}>
               <img
                 src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=600&h=450&fit=crop"
                 alt="Team collaborating in a modern office"
@@ -72,10 +82,61 @@ export default function About() {
             </div>
             <div className={styles.storyContent}>
               <p>
-              ერთ-ერთი მთავარი გადაწყვეტილება, რაც ჩვენს ყოველდღიურ ბედნიერებას დიდწილად განაპირობებს, ჩვენი საქმიანობაა. ჩვენი საქმიანობა ხომ ის მისიაა, რისთვისაც ცხოვრების უმეტეს ნაწილს ვიმეტებთ. წარმოიდგინეთ რომ ეს მისია სხვისია და არა თქვენი. ალბათ სწორედ ამ დროს ჩნდება სიტყვა "მეზარება", ამ დროს გვინდა რომ კვირა დღე გაგრძელდეს და ორშაბათი დიდხანს არ დადგეს, ამ დროს ვფიქრობთ რომ "ცხოვრება წვალებაა"...
+                ერთ-ერთი მთავარი გადაწყვეტილება, რაც ჩვენს ყოველდღიურ
+                ბედნიერებას დიდწილად განაპირობებს, ჩვენი საქმიანობაა. ჩვენი
+                საქმიანობა ხომ ის მისიაა, რისთვისაც ცხოვრების უმეტეს ნაწილს
+                ვიმეტებთ. წარმოიდგინეთ რომ ეს მისია სხვისია და არა თქვენი. ალბათ
+                სწორედ ამ დროს ჩნდება სიტყვა "მეზარება", ამ დროს გვინდა რომ
+                კვირა დღე გაგრძელდეს და ორშაბათი დიდხანს არ დადგეს, ამ დროს
+                ვფიქრობთ რომ "ცხოვრება წვალებაა"...
               </p>
               <p>
-              ხოლო მაშინ როცა იმ საქმეს ვაკეთებთ რაც ღამე არ გვასვენებს, რაც ჟრუანტელს გვგვრის, რასაც შაბათ-კვირას სამსახურის გარეშეც გავაკეთებდით - თითოეული წუთი გვაბედნიერებს. ვაკეთებთ იმას რაც გვიყვარს. ვართ თავისუფლები. ვართ ბედნიერები. ასეთი ადამიანები არამარტო საკუთარ, არამედ სხვა უამრავი ადამიანების ცხოვრებას ცვლიან უკეთესობისკენ!
+                ხოლო მაშინ როცა იმ საქმეს ვაკეთებთ რაც ღამე არ გვასვენებს, რაც
+                ჟრუანტელს გვგვრის, რასაც შაბათ-კვირას სამსახურის გარეშეც
+                გავაკეთებდით - თითოეული წუთი გვაბედნიერებს. ვაკეთებთ იმას რაც
+                გვიყვარს. ვართ თავისუფლები. ვართ ბედნიერები. ასეთი ადამიანები
+                არამარტო საკუთარ, არამედ სხვა უამრავი ადამიანების ცხოვრებას
+                ცვლიან უკეთესობისკენ!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className={styles.whySection}>
+        <div className="container">
+          <SectionHeading
+            title="რატომ შეიქმნა ფრიჯენერო?"
+            subtitle="ჩვენი მიზანია დაგეხმაროთ საკუთარი თავის პოვნაში და იმ თავისუფლების მოპოვებაში, რომელიც მხოლოდ საყვარელი საქმის კეთებას მოაქვს."
+            centered
+          />
+          <div className={styles.whyGrid}>
+            <div className={styles.whyCard}>
+              <h3>გზა თავისუფლებისკენ</h3>
+              <p>
+                ცხოვრების ერთ-ერთი მნიშვნელოვანი გადაწყვეტილება პროფესიის არჩევაა და ამ გადაწყვეტილების მიღება ისეთ დროს გვიწევს, როცა ყველაზე ნაკლებად ვიცნობთ საკუთარ თავს, როცა სხვისი აზრი ყველაზე მნიშვნელოვანია და როცა ყველაზე ნაკლებია ჩვენში გამბედაობა.
+              </p>
+            </div>
+            <div className={styles.whyCard}>
+              <h3>ახალი შესაძლებლობები</h3>
+              <p>
+                ჩვენი მოკლე კურსებით ახალგაზრდებს გავაცნობთ სხვადასხვა პროფესიებს, მივცემთ შესაძლებლობას რომ თავად გამოსცადონ ესა თუ ის სფერო და თავად შეარჩიონ ის საქმიანობა, სადაც დრო ათვლას დაკარგავს, სადაც ორშაბათი "მძიმე დღე" არ იქნება, სადაც საკუთარ მისიას დაინახავენ და იქნებიან თავისუფლები.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className={styles.goalSection}>
+        <div className="container">
+          <div className={styles.goalInner}>
+            <SectionHeading
+              title="ჩვენი მიზანი"
+              centered
+            />
+            <div className={styles.goalContent}>
+              <p>
+                ჩვენი მიზანია ადამიანებს დავეხმაროთ რომ მოუსმინონ საკუთარ თავს, აღმოაჩინონ საკუთარი ინტერესები, ძლიერი მხარეები... მიაგნონ საკუთარ ოცნებას და გაყვნენ ამ ოცნებისკენ მიმავალ გზას! თავისუფალი ხომ მხოლოდ მაშინ არის ადამიანი როცა იმ საქმეს აკეთებს რაც უყვარს, როცა ისე გამოხატავს საკუთარ თავს როგორც უნდა, როცა იმ გარემოშია სადაც უნდა, როცა ის არის ვინც უნდა!
               </p>
             </div>
           </div>
@@ -101,7 +162,7 @@ export default function About() {
         </div>
       </section>
 
-      <section className="section">
+      {/* <section className="section">
         <div className="container">
           <div className={styles.numbers}>
             <div className={styles.numberItem}>
@@ -122,7 +183,7 @@ export default function About() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 }

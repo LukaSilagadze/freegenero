@@ -10,7 +10,7 @@
   align-items: center;
 }
 
-.about-story {
+.aboutStory {
   display: flex;
   flex-direction: column;
   gap: 100px;
@@ -108,6 +108,65 @@
 .numberLabel {
   font-size: var(--fs-sm);
   color: var(--color-text-light);
+}
+
+.whySection {
+  background: var(--color-bg-alt);
+  padding: var(--spacing-4xl) 0;
+}
+
+.whyGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--spacing-2xl);
+  margin-top: var(--spacing-3xl);
+}
+
+.whyCard {
+  background: var(--color-bg);
+  padding: var(--spacing-2xl);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--color-border);
+}
+
+.whyCard h3 {
+  font-size: var(--fs-xl);
+  color: var(--color-secondary);
+  margin-bottom: var(--spacing-md);
+  font-weight: var(--fw-bold);
+}
+
+.whyCard p {
+  color: var(--color-text-light);
+  line-height: 1.7;
+}
+@media (max-width: 768px) {
+  .whyGrid {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-xl);
+  }
+}
+
+.goalSection {
+  padding: var(--spacing-4xl) 0;
+  background: var(--color-bg);
+}
+
+.goalInner {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.goalContent {
+  text-align: center;
+  margin-top: var(--spacing-xl);
+}
+
+.goalContent p {
+  font-size: var(--fs-lg);
+  color: var(--color-text-light);
+  line-height: 1.8;
 }
 
 @media (max-width: 768px) {
