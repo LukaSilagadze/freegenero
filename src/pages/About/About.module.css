@@ -10,6 +10,12 @@
   align-items: center;
 }
 
+.about-story {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
 .storyTitle {
   font-size: var(--fs-3xl);
   font-weight: var(--fw-bold);

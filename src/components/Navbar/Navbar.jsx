@@ -5,15 +5,15 @@ import { HiMenuAlt3, HiX } from 'react-icons/hi';
 import styles from './Navbar.module.css';
 
 const navLinks = [
-  { path: '/', label: 'Home' },
-  { path: '/about', label: 'About' },
-  { path: '/courses', label: 'Courses' },
-  { path: '/instructors', label: 'Instructors' },
-  { path: '/blog', label: 'Blog' },
-  { path: '/news', label: 'News' },
-  { path: '/gallery', label: 'Gallery' },
-  { path: '/cooperation', label: 'Cooperation' },
-  { path: '/contact', label: 'Contact' },
+  { path: '/', label: 'მთავარი' },
+  { path: '/about', label: 'ჩვენს შესახებ' },
+  { path: '/courses', label: 'კურსები' },
+  // { path: '/instructors', label: 'Instructors' },
+  // { path: '/blog', label: 'Blog' },
+  { path: '/news', label: 'სიახლეები' },
+  { path: '/gallery', label: 'გალერეა' },
+  { path: '/cooperation', label: 'თანამშრომლობა' },
+  { path: '/contact', label: 'კონტაქტი' },
 ];
 
 export default function Navbar() {

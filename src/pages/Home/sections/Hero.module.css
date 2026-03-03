@@ -27,18 +27,6 @@
   margin: 0 auto;
 }
 
-.badge {
-  display: inline-block;
-  background: rgba(255, 255, 255, 0.15);
-  color: var(--color-accent);
-  font-size: var(--fs-sm);
-  font-weight: var(--fw-semibold);
-  padding: var(--spacing-xs) var(--spacing-md);
-  border-radius: var(--radius-full);
-  margin-bottom: var(--spacing-lg);
-  backdrop-filter: blur(4px);
-}
-
 .title {
   font-size: var(--fs-5xl);
   font-weight: var(--fw-extrabold);
@@ -76,28 +64,6 @@
 .outlineBtn:hover {
   background: var(--color-text-inverse);
   color: var(--color-primary);
-}
-
-.stats {
-  display: flex;
-  justify-content: center;
-  gap: var(--spacing-2xl);
-}
-
-.stats div {
-  display: flex;
-  flex-direction: column;
-}
-
-.stats strong {
-  font-size: var(--fs-2xl);
-  font-weight: var(--fw-bold);
-  color: var(--color-text-inverse);
-}
-
-.stats span {
-  font-size: var(--fs-sm);
-  color: rgba(255, 255, 255, 0.7);
 }
 
 @media (max-width: 768px) {

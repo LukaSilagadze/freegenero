@@ -42,28 +42,16 @@ export default function About() {
         </div>
       </section>
 
-      <section className="section">
+      <section className="section about-story">
         <div className="container">
           <div className={styles.story}>
             <div className={styles.storyContent}>
-              <h2 className={styles.storyTitle}>Our Story</h2>
+              <h2 className={styles.storyTitle}>ფიქრები ფრიჯენეროს შექმნამდე</h2>
               <p>
-                FreeGenero started as a small group of educators and technologists
-                who saw a gap in the market for practical, career-focused online
-                education. Traditional universities were slow to adapt to the
-                rapidly changing tech landscape, and existing online platforms
-                often prioritized quantity over quality.
+              ადამიანები განსხვავებულები ვართ და ყველას ჩვენებურად გვესმის ცხოვრების არსი, მიზანი... თუმცა არის ერთი რამ, რაც გვაერთიანებს  - ყველა ვცდილობთ რომ ცხოვრების იმ ხანმოკლე დროში, რაც რამდენ წელს გაგრძელდება წინასწარ არავინ იცის - ბედნიერება ვიპოვოთ. ბედნიერებაც იმდენნაირად გვესმის რამდენი ადამიანიც არსებობს დედამიწაზე. თუმცა, კარგად თუ დავუკვირდებით, სხვადასხვა მხოლოდ ბედნიერებისკენ მიმავალი გზაა, ხოლო ბედნიერება ერთ ყველაზე მთავარს ეფუძნება და ეს მთავარი ყველასათვის ერთია - თავისუფლება. 
               </p>
               <p>
-                We set out to build something different — a learning platform
-                where every course is crafted by industry practitioners, every
-                project mirrors real-world challenges, and every student receives
-                the support they need to succeed.
-              </p>
-              <p>
-                Today, FreeGenero serves over 10,000 students across 30+
-                countries, with a 95% course completion rate and an extensive
-                alumni network working at leading companies worldwide.
+              თავისუფლების გარეშე ბედნიერებას არც აქამდე უარსებია და არც არასოდეს იარსებებს.
               </p>
             </div>
             <div className={styles.storyImage}>
@@ -71,6 +59,24 @@ export default function About() {
                 src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=600&h=450&fit=crop"
                 alt="Team collaborating in a modern office"
               />
+            </div>
+          </div>
+        </div>
+        <div className="container">
+          <div className={styles.story}>
+          <div className={styles.storyImage}>
+              <img
+                src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=600&h=450&fit=crop"
+                alt="Team collaborating in a modern office"
+              />
+            </div>
+            <div className={styles.storyContent}>
+              <p>
+              ერთ-ერთი მთავარი გადაწყვეტილება, რაც ჩვენს ყოველდღიურ ბედნიერებას დიდწილად განაპირობებს, ჩვენი საქმიანობაა. ჩვენი საქმიანობა ხომ ის მისიაა, რისთვისაც ცხოვრების უმეტეს ნაწილს ვიმეტებთ. წარმოიდგინეთ რომ ეს მისია სხვისია და არა თქვენი. ალბათ სწორედ ამ დროს ჩნდება სიტყვა "მეზარება", ამ დროს გვინდა რომ კვირა დღე გაგრძელდეს და ორშაბათი დიდხანს არ დადგეს, ამ დროს ვფიქრობთ რომ "ცხოვრება წვალებაა"...
+              </p>
+              <p>
+              ხოლო მაშინ როცა იმ საქმეს ვაკეთებთ რაც ღამე არ გვასვენებს, რაც ჟრუანტელს გვგვრის, რასაც შაბათ-კვირას სამსახურის გარეშეც გავაკეთებდით - თითოეული წუთი გვაბედნიერებს. ვაკეთებთ იმას რაც გვიყვარს. ვართ თავისუფლები. ვართ ბედნიერები. ასეთი ადამიანები არამარტო საკუთარ, არამედ სხვა უამრავი ადამიანების ცხოვრებას ცვლიან უკეთესობისკენ!
+              </p>
             </div>
           </div>
         </div>
